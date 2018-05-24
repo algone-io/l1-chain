@@ -1,2 +1,2 @@
-# L1-Chain
-Chain level 1
+# Algone Level 1 Chain
+Components for Algone Level 1 chain, based on DAG technology
