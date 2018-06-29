@@ -1,0 +1,29 @@
+{
+  "name": "l1-bridge",
+  "description": "Bridge between L1 and L2",
+  "author": "Moochain",
+  "version": "0.0.1",
+  "main": "start.js",
+  "keywords": [
+    "bridge",
+    "headless",
+    "byteball",
+    "full node"
+  ],
+  "license": "MIT",
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "byteballcore": "git+https://github.com/byteball/byteballcore.git",
+    "bitcore-lib": "^0.13.14",
+    "bitcore-mnemonic": "~1.0.0",
+    "basic-auth": "^2.0.0",
+    "bignum": "^0.12.5",
+    "bignumber.js": "^5.0.0",
+    "web3": "^0.20.1",
+    "web3-eth-abi": "^1.0.0-beta.34",
+    "json-rpc2": "^1.0.2"
+  }
+}
